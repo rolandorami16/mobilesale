@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:minHeight="?attr/listPreferredItemHeight"
+
+    xmlns:tool="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/imageid"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+         />
+    <TextView
+        android:id="@+id/txvnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:text="nombre producto"
+
+        />
+    <TextView
+        android:id="@+id/txvprecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txvnombre"
+        android:layout_marginLeft="70dp"
+        android:text="250.00"
+        />
+    <TextView
+        android:id="@+id/txvfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="25/03/2019"
+        />
+
+
+</RelativeLayout>
